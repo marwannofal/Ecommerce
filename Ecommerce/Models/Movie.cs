@@ -10,16 +10,16 @@ namespace Ecommerce.Models
         public int Id { get; set; }
         [Display(Name = "Movie Name")]
         [Required]
-        public string? Name { get; set; }
+        public string Name { get; set; }
         [Required]
-        public string? Discription { get; set; }
+        public string Discription { get; set; }
         [Required]
         [DataType(DataType.Currency)]
         public double Price { get; set; }
         [Required]
         [DataType(DataType.ImageUrl)]
         [Display(Name = "Movie Picture")]
-        public string? ImageURL { get; set; }
+        public string ImageURL { get; set; }
         [Required]
         [Display(Name = "Start Date")]
         public DateTime StartDate { get; set; }

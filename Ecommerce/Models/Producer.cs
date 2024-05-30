@@ -8,10 +8,10 @@ namespace Ecommerce.Models
         public int Id { get; set; }
         [Display(Name = "Profile Picture URL")]
         [Required]
-        public string? ProfilePictureURL { get; set; }
+        public string ProfilePictureURL { get; set; }
         [Display(Name = "Full Name")]
         [Required]
-        public string? FullName { get; set; }
+        public string FullName { get; set; }
         [Display(Name = "Biography")]
         [Required]
         public string? Bio { get; set; }

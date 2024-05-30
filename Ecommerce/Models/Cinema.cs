@@ -8,11 +8,11 @@ namespace Ecommerce.Models
         public int Id { get; set; }
         [Display(Name = "Cinema Logo")]
         [Required]
-        public string? CinmaLogo { get; set; }
+        public string CinmaLogo { get; set; }
         [Required]
-        public string? Name { get; set; }
+        public string Name { get; set; }
         [Required]
-        public string? Discription { get; set; }
+        public string Discription { get; set; }
 
         //relationships:
         public List<Movie>? Movies { get; set; }
