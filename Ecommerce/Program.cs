@@ -1,5 +1,4 @@
 using Ecommerce.Data;
-using Ecommerce.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
